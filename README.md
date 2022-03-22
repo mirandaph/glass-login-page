@@ -1,2 +1,11 @@
 # glass-login-page
-Página de login estilo vidro fosco, com redirecionamento em JavaScript
+
+#### CSS
+
+Página de login estilo vidro fosco
+
+#### JavaScript
+
+Redirecionamento em JavaScript
+
+Verificação de preenchimento de formulário em Javascript
