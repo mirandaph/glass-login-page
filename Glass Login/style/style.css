@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+   /*background-color: #61b3ff;*/
+   background: linear-gradient(to right, #639affab, #5df4ffab);
+}
+
+.content {
+    background: linear-gradient(145deg, #ffffffa1, #ffffff41);
+    padding: 15px;
+    width: 400px;
+    border-radius: 26px;
+    /*box-shadow:  5px 5px 5px #8686868f, -7px -7px 17px #ffffff;*/
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.content img {
+    width: 100px;
+    margin: 30px;
+}
+
+.content h1 {
+    color: rgb(0, 180, 255);
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.content form {
+    margin: auto;
+}
+
+.content input {
+    padding: 11px 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 26px;
+    /*box-shadow:  5px 5px 5px #8686868f, -7px -7px 17px #ffffff;*/
+    outline: none;
+    cursor: text;
+}
+
+.content input::placeholder{
+    font-size: 14px;
+    text-align: center;
+    color: rgba(9, 177, 255, 0.582);
+}
+
+.content input:focus::placeholder {
+    color: transparent;
+}
+
+.content button {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px;
+    padding: 3px 35px;
+    color: white;
+    background-color: rgb(9, 198, 255);
+    border: 1px solid rgb(9, 198, 255);
+    outline: none;
+    cursor: pointer;
+    border-radius: 26px;
+    /*box-shadow:  5px 5px 5px #8686868f, -7px -7px 17px #ffffff;*/
+    transition: 0.5s;
+}
+
+.content button:hover {
+    background-color: rgb(9, 226, 255);
+    border: 1px solid rgb(9, 226, 255);
+    transition: 0.5s;
+}
+
+h2 {
+    color: rgb(0, 180, 255);
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+p {
+    color: rgb(0, 109, 156);
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    padding: 0px 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        width: 80%;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+}
