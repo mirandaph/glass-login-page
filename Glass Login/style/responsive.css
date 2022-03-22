@@ -1,0 +1,49 @@
+@media screen and (max-width: 700px) {
+    .content {
+        width: 60%;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .content {
+        width: 80%;
+    }
+    .content h1 {
+        font-size: 25px;
+    }
+
+    .content input {
+        padding: 10px 25px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .content {
+        width: 80%;
+    }
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content input {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .content {
+        width: 80%;
+    }
+    .content img {
+        width: 70px;
+    }
+    .content h1 {
+        font-size: 15px;
+    }
+
+    .content input {
+        padding: 5px 10px;
+    }
+}

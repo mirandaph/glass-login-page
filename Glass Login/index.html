@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/login.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -13,15 +14,15 @@
 </head>
 <body>
     <section class="content">
-            <img src="img/login.png" alt="Ícone do Login">
-            <h1>Create account</h1>
-            <div>
-                <input spellcheck="false" required placeholder="username" type="text" id="username">
-                <input spellcheck="false" required placeholder="email" type="email" id="email">
-                <input placeholder="password" required type="password" id="password">
-                <br>
-                <a><button onclick="login()" id="btn">Login</button></a>
-            </div>
+        <img src="img/login.png" alt="Ícone do Login">
+        <h1>Create account</h1>
+        <div class="form">
+            <input spellcheck="false" required placeholder="username" type="text" id="username" minlength="2">
+            <input spellcheck="false" required placeholder="email" type="email" id="email">
+            <input sppelcheck="false" required placeholder="password" type="password" id="password">
+            <div class="msg"></div>
+            <a><button onclick="login()" id="btn">Login</button></a>
+        </div> 
     </section>
     <script src="js/script.js"></script>
 </body>
